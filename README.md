@@ -12,7 +12,7 @@ ___
 
 Voor dit onderzoek werd een RNA-sequencinganalyse uitgevoerd met monsters afkomstig van acht patiënten, vier hiervan met reumatoïde artritis (RA) (diagnoseduur > 12 maanden, anti-CCP-positief) en vier patiënten dienden als controlegroep zonder RA (anti-CCP-negatief). 
 
-De ruwe data werd gedownload en ge-unzipt, vervolgens werd in RStudio gebruik gemaakt van de Rsubread-package (volgens handleiding van Liao et al., (2025)) om de referentie-index van het humane genoom (GRCh38.p14) (Homo Sapiens Genome Assembly GRCh38.p14, z.d.) op te bouwen en de reads te alignen naar het genoom. De uitgelijnde BAM-bestanden werden gesorteerd en geïndexeerd met Rsamtools (volgens handleiding van Morgan et al., (2025)).
+De ruwe data werd gedownload en ge-unzipt, vervolgens werd in RStudio gebruik gemaakt van de [`Rsubread`](./scripts/Rsubread.R) om de referentie-index van het humane genoom (GRCh38.p14) (Homo Sapiens Genome Assembly GRCh38.p14, z.d.) op te bouwen en de reads te alignen naar het genoom. De uitgelijnde BAM-bestanden werden gesorteerd en geïndexeerd met Rsamtools (volgens handleiding van Morgan et al., (2025)).
 
 Met featureCounts werden de read counts per gen bepaald en hieruit volgde een count-matrix. Omdat dit nog een subset was, werd er vanaf nu gewerkt met de (aangereikte) volledige count-matrix. Er werd een differentiale genexpressieanalyse (DGE) uitgevoerd met het package DESeq2 (volgens handleiding van Love et al., (2014)). 
 
