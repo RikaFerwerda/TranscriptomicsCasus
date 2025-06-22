@@ -29,7 +29,11 @@ Scripts en data zijn te vinden in de mappen [`scripts`](./scripts) en [`data`](.
 ___
 ## 📊 Resultaten
 
+Om de verschillen in genexpressie te vinden tussen patiënten met reumatoïde artritis (RA) en gezonde controles, is een differentiële genexpressie-analyse uitgevoerd. In de [`volcano plot`](./resultaten/EnhancedVolcanoPlot.png) zijn de genen te zien die significant verschillend tot expressie komen. De genen in het rood hebben zowel een statistische significante p-waarde als een hoge log₂ fold change, met deze genen wordt dan ook verder gewerkt in de analyse.
 
+Hierna werd een [`GO (Gene Ontology) analyse`](./resultaten/GOplot.png) uitgevoerd en hieruit kwam dat immuungerelateerde processen meer betrokken zijn bij patiënten met RA. Dit sluit aan bij RA als een auto-immuunziekte, waarbij dus de immuunactivatie een grote rol speelt. Zo is ook te zien dat "leukocyte activation" in de GO-analyse naar voren komt  met 400 counts, 32,8% hits en een p-value = 3,847567e-22. Met dit proces is verder gezocht naar pathways voor de KEGG-pathway analyse.
+
+Voor deze KEGG-pathway analyse werd de [`chemokine signaling pathway`](./resultaten/hsa04062.pathway.png) geanalyseerd. Binnen deze pathway is te zien dat er meerdere genen differentieel gereguleerd zijn tussen RA-patiënten en gezonde individuen. Onder andere PI3K, PLC, Rac en PKC betrokken bij processen als leukocytenmigratie, ontsteking en celactivatie. De activatie van deze route laat de rol zien van chemokines in het immuunantwoord bij RA. 
 ___
 ## 🎯 Conclusie
 
