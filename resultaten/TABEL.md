@@ -1,3 +1,6 @@
+
+*Tabel 1: genen die upgereguleerd (⬆️) en downgereguleerd (⬇️) zijn in de chemokine signaling pathway bij RA patiënten. Daarbij wordt de functie van het gen weergegeven en de wetenschappelijke bron.*
+
 | Gen  | Verandering | Biologische functie | Wetenschappelijke bron |
 |------|-------------|------------------------------------------------|----------------|
 | **Vav**  | ⬆️          | Vav-eiwitten werken als guanine nucleotide exchange factors (GEFs) en zijn betrokken bij T-celactivatie en cytoskeletdynamiek. | TTybulewicz V. L., 2005 |
