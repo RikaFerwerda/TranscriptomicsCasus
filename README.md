@@ -26,7 +26,7 @@ Met featureCounts werden de read counts per gen bepaald en hieruit volgde een co
 
 Hierbij werd onder andere de log2-fold change (log2FC) en de adjusted p-value (padj) berekend, om de genen met significante expressieveranderingen tussen RA en de controlegroep eruit te halen. Resultaten werden weergegeven in o.a. een volcano plot (via [`EnhancedVolcanoplot`](./scripts/EnhancedVolcano.R)).
 
-Vervolgens werd een Gene Ontology (GO) verrijkingsanalyse uitgevoerd met [`goseq`](./scripts/goseq.R) en visualisatie met ggplot2. Daarnast werd een KEGG-pathway onderzocht (op basis van de resultaten van de GO-analyse) met behulp van [`pathview`](./scripts/pathview.R), er werd gekozen voor pathway 'hsa04062', de pathway voor Chemokine signaling. Chemokines spelen een grote rol in het aantrekken van immuuncellen naar ontstekingsweefsel en bij RA is er chronische ontsteking van het synovium en daar zijn chemokines heel actief. Daarnaast reguleert deze pathway de migratie en activering van leukocyten (witte bloedcellen), deze leukocyt-gerelateerde processen kwamen ook naar voren in de [`GO-analyse`](./resultaten/GO-analyse.png) (400 counts, 32,8% hits en p-value = 3,847567e-22).
+Vervolgens werd een Gene Ontology (GO) verrijkingsanalyse uitgevoerd met [`goseq`](./scripts/goseq.R) en visualisatie met ggplot2. Hiervoor werden eerst de genen die differentieel tot expressie waren gekomen gefilterd met, log2FC > 1 en padj < 0.05.  Daarna werd een KEGG-pathway onderzocht (op basis van de resultaten van de GO-analyse) met behulp van [`pathview`](./scripts/pathview.R), er werd gekozen voor pathway 'hsa04062', de pathway voor Chemokine signaling. Chemokines spelen een grote rol in het aantrekken van immuuncellen naar ontstekingsweefsel en bij RA is er chronische ontsteking van het synovium en daar zijn chemokines heel actief. Daarnaast reguleert deze pathway de migratie en activering van leukocyten (witte bloedcellen), deze leukocyt-gerelateerde processen kwamen ook naar voren in de [`GO-analyse`](./resultaten/GO-analyse.png) (400 counts, 32,8% hits en p-value = 3,847567e-22).
 
 Scripts en data zijn te vinden in de mappen [`scripts`](./scripts) en [`data`](./data), het volledige script is [`Rscript`](./scripts/Rscript.R). De methoden zijn ook uitgewerkt in de workflow die hieronder staat, zie figuur 1.
 
@@ -71,7 +71,15 @@ Voor deze KEGG-pathway analyse werd de [`chemokine signaling pathway`](./resulta
 ___
 ## 🎯 Conclusie
 
-Het doel was om verschillen in genexpressie te vinden en te onderzoeken welke pathways mogelijk betrokken zijn bij het ontstaan van RA. Uit de differentiële genexpressie-analyse komt naar voren dat er duidelijke verschillen bestaan in genexpressie tussen RA-patiënten en gezonde controles, met name in immuungerelateerde processen. De resultaten uit de GO-analyse lietz zien dat immuunactivatie, waarbij specifiek is gekeken naar de activatie van leukocyten, een belangrijke rol speelt in RA. De KEGG-pathway analyse van de chemokine signaling pathway bevestigde dit verder door te laten zien dat meerdere genen betrokken zijn bij leukocytenmigratie en ontsteking significant gereguleerd zijn. Samen laten deze resultaten zien dat verhoogde immuunactivatie en migratie van leukocyten bijdragen aan het ziekteproces van RA, wat ook overeenkomt met de auto-immuun eigenschappen van deze aandoening.
+In dit onderzoek is gekeken naar de verschillen in genexpressie tussen RA-patiënten en gezonde controles. Het hoofddoel was om te achterhalen welke biologische processen betrokken zijn bij RA op basis van differentiële genexpressie.
+
+Uit de analyse kwamen een aantal genen naar voren die significant verschillen in expressie bij RA-patiënten. Deze genen zijn geïdentificeerd via een differentiële genexpressieanalyse en weergegeven in een volcano plot. Op basis van deze genen werd vervolgens onderzocht welke biologische processen verrijkt zijn bij RA. De GO-analyse liet zien dat vooral immuungerelateerde processen, zoals leukocyt activatie, wel verrijkt zijn bij RA. Dit komt overeen met de rol die het immuunsysteem speelt bij deze ziekte, en laat dus zien dat immuuncellen betrokken zijn bij het ziekteproces van RA.
+
+Uiteindelijk is ingezoomd op de chemokine signaling pathway (deelvraag 3), een signaalroute die cruciaal is voor de migratie en activatie van leukocyten. Hierin werden meerdere genen gevonden die sterk veranderd waren in expressie, waaronder PI3K, PLC en PKC. De activatie van deze pathway onderbouwt het idee dat chemokines bijdragen aan de chronische ontsteking bij RA.
+
+Samengevat laat dit onderzoek zien dat RA gepaard gaat met grootschalige veranderingen in genexpressie, met name in immuungerelateerde processen zoals leukocytenactivatie en chemokine-gedreven signaalroutes. Transcriptomics via RNA-seq blijkt hiermee een waardevolle methode om ziekteprocessen bij RA beter te begrijpen en mogelijk nieuwe aanknopingspunten voor therapie te vinden.
+
+
 
 ___
 ## 🗂️ Data Stewardship
