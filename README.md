@@ -75,11 +75,9 @@ In dit onderzoek is gekeken naar de verschillen in genexpressie tussen RA-patië
 
 Uit de analyse kwamen een aantal genen naar voren die significant verschillen in expressie bij RA-patiënten. Deze genen zijn geïdentificeerd via een differentiële genexpressieanalyse en weergegeven in een volcano plot. Op basis van deze genen werd vervolgens onderzocht welke biologische processen verrijkt zijn bij RA. De GO-analyse liet zien dat vooral immuungerelateerde processen, zoals leukocyt activatie, wel verrijkt zijn bij RA. Dit komt overeen met de rol die het immuunsysteem speelt bij deze ziekte, en laat dus zien dat immuuncellen betrokken zijn bij het ziekteproces van RA.
 
-Uiteindelijk is ingezoomd op de chemokine signaling pathway (deelvraag 3), een signaalroute die cruciaal is voor de migratie en activatie van leukocyten. Hierin werden meerdere genen gevonden die sterk veranderd waren in expressie, waaronder PI3K, PLC en PKC. De activatie van deze pathway onderbouwt het idee dat chemokines bijdragen aan de chronische ontsteking bij RA.
+Uiteindelijk is specifiek gekeken naar de chemokine signaling pathway, deze is cruciaal voor de migratie en activatie van leukocyten. Hierin werden meerdere genen gevonden die een grote verandering hebben in expressie, waaronder PI3K, PLC en PKC. De activatie van deze pathway laat zien dat chemokines bijdragen aan de chronische ontsteking bij RA.
 
-Samengevat laat dit onderzoek zien dat RA gepaard gaat met grootschalige veranderingen in genexpressie, met name in immuungerelateerde processen zoals leukocytenactivatie en chemokine-gedreven signaalroutes. Transcriptomics via RNA-seq blijkt hiermee een waardevolle methode om ziekteprocessen bij RA beter te begrijpen en mogelijk nieuwe aanknopingspunten voor therapie te vinden.
-
-
+Naast de chemokine signaling pathway zouden ook andere immuunroutes, zoals T-cell receptor signaling of NF-kB routes, verder onderzocht kunnen worden. Dit zou kunnen helpen om de immuunactivatie bij RA in kaart te kunnen brengen. 
 
 ___
 ## 🗂️ Data Stewardship
