@@ -37,6 +37,7 @@ Voor deze KEGG-pathway analyse werd de [`chemokine signaling pathway`](./resulta
 ___
 ## 🎯 Conclusie
 
+Het doel was om verschillen in genexpressie te vinden en te onderzoeken welke pathways mogelijk betrokken zijn bij het ontstaan van RA. Uit de differentiële genexpressie-analyse komt naar voren dat er duidelijke verschillen bestaan in genexpressie tussen RA-patiënten en gezonde controles, met name in immuungerelateerde processen. De resultaten uit de GO-analyse lietz zien dat immuunactivatie, waarbij specifiek is gekeken naar de activatie van leukocyten, een belangrijke rol speelt in RA. De KEGG-pathway analyse van de chemokine signaling pathway bevestigde dit verder door te laten zien dat meerdere genen betrokken zijn bij leukocytenmigratie en ontsteking significant gereguleerd zijn. Samen laten deze resultaten zien dat verhoogde immuunactivatie en migratie van leukocyten bijdragen aan het ziekteproces van RA, wat ook overeenkomt met de auto-immuun eigenschappen van deze aandoening.
 
 ___
 ## 🗂️ Data Stewardship
