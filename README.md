@@ -20,20 +20,46 @@ Hierbij werd onder andere de log2-fold change (log2FC) en de adjusted p-value (p
 
 Vervolgens werd een Gene Ontology (GO) verrijkingsanalyse uitgevoerd met [`goseq`](./scripts/goseq.R) en visualisatie met ggplot2. Daarnast werd een KEGG-pathway onderzocht (op basis van de resultaten van de GO-analyse) met behulp van [`pathview`](./scripts/pathview.R), er werd gekozen voor pathway 'hsa04062', de pathway voor Chemokine signaling. Chemokines spelen een grote rol in het aantrekken van immuuncellen naar ontstekingsweefsel en bij RA is er chronische ontsteking van het synovium en daar zijn chemokines heel actief. Daarnaast reguleert deze pathway de migratie en activering van leukocyten (witte bloedcellen), deze leukocyt-gerelateerde processen kwamen ook naar voren in de [`GO-analyse`](./resultaten/GO-analyse.png) (400 counts, 32,8% hits en p-value = 3,847567e-22).
 
-Scripts en data zijn te vinden in de mappen [`scripts`](./scripts) en [`data`](./data), het volledige script is [`Rscript`](./scripts/Rscript.R)
+Scripts en data zijn te vinden in de mappen [`scripts`](./scripts) en [`data`](./data), het volledige script is [`Rscript`](./scripts/Rscript.R). De methoden zijn ook uitgewerkt in de workflow die hieronder staat, zie figuur 1.
 
 <p align="center">
   <img src="assets/Workflow.png" alt="Workflow RNA-Seq data-analyse bij RA" width="600"/>
 </p>
 
+*Figuur 1: workflow van de RNA-Seq data-analyse bij reumatoïde artitis (RA), boven de stappen staat de package die is gebruikt voor het uitvoeren van deze stap*
 ___
 ## 📊 Resultaten
 
-Om de verschillen in genexpressie te vinden tussen patiënten met reumatoïde artritis (RA) en gezonde controles, is een differentiële genexpressie-analyse uitgevoerd. In de [`volcano plot`](./resultaten/EnhancedVolcanoPlot.png) zijn de genen te zien die significant verschillend tot expressie komen. De genen in het rood hebben zowel een statistische significante p-waarde als een hoge log₂ fold change, met deze genen wordt dan ook verder gewerkt in de analyse.
+### Genen die significant veranderd zijn bij RA-patiënten
 
-Hierna werd een [`GO (Gene Ontology) analyse`](./resultaten/GO-analyse.png) uitgevoerd en hieruit kwam dat immuungerelateerde processen meer betrokken zijn bij patiënten met RA. Dit sluit aan bij RA als een auto-immuunziekte, waarbij dus de immuunactivatie een grote rol speelt. Zo is ook te zien dat "leukocyte activation" in de GO-analyse naar voren komt  met 400 counts, 32,8% hits en een p-value = 3,847567e-22. Met dit proces is verder gezocht naar pathways voor de KEGG-pathway analyse.
+Om de verschillen in genexpressie te vinden tussen patiënten met reumatoïde artritis (RA) en gezonde controles, is een differentiële genexpressie-analyse uitgevoerd. In de [`volcano plot`](./resultaten/EnhancedVolcanoPlot.png) (zie figuur 2) zijn de genen te zien die significant verschillend tot expressie komen. De genen in het rood hebben zowel een statistische significante p-waarde als een hoge log₂ fold change, met deze genen wordt dan ook verder gewerkt in de analyse.
 
-Voor deze KEGG-pathway analyse werd de [`chemokine signaling pathway`](./resultaten/hsa04062.pathview.png) geanalyseerd. Binnen deze pathway is te zien dat er meerdere genen differentieel gereguleerd zijn tussen RA-patiënten en gezonde individuen. Onder andere PI3K, PLC, Rac en PKC betrokken bij processen als leukocytenmigratie, ontsteking en celactivatie. De rode kleur staat voor upregulatie, wat betekent dat het gen meer tot expressie is gekomen in de RA-patiënten dan in gezonde patiënten (Een Log₂FC = +5 betekent ongeveer 32x meer tot expressie). Groen staat juist voor downregulatie, waarbij het gen minder tot expressie is gekomen in RA-patiënten dan in de controles (Een Log₂FC = -5 betekent ongeveer 32x minder tot expressie). De activatie van deze route laat de rol zien van chemokines in het immuunantwoord bij RA. 
+<p align="left">
+  <img src="/resultaten/EnhancedVolcanoPlot.png" alt="Enhanced Volcano Plot" width="600"/>
+</p>
+
+*Figuur 2: volcano plot van differentiële genexpressie tussen RA-patiënten en controles. De figuur toont de genen die significant veranderd tot expressie komen tussen RA-patiënten en gezonde controles. Log₂ fold change tegenover -log10 p-waarde. Rood is zowel statistisch significant als een hoge log₂ fold change.*
+
+### Immuungerelateerde processen verrijkt bij RA
+
+Hierna werd een [`GO (Gene Ontology) analyse`](./resultaten/GO-analyse.png) uitgevoerd (zie figuur 3) en hieruit kwam dat immuungerelateerde processen meer betrokken zijn bij patiënten met RA. Dit sluit aan bij RA als een auto-immuunziekte, waarbij dus de immuunactivatie een grote rol speelt. Zo is ook te zien dat "leukocyte activation" in de GO-analyse naar voren komt  met 400 counts, 32,8% hits en een p-value = 3,847567e-22. Met dit proces is verder gezocht naar pathways voor de KEGG-pathway analyse.
+
+<p align="left">
+  <img src="/resultaten/GO-analyse.png" alt="GO-analyse" width="600"/>
+</p>
+
+*Figuur 3: GO-verrijkingsanalyse van genen die differentieel tot expressie komen tussen RA-patiënten en controles. De figuur laat de top verrijkte GO-termen (biologische processen) zien, gebaseerd op de genen die differentieel tot expressie komen. De grootte van de stippen geeft het aantal genen (counts) weer, de kleur geeft de bijbehorende p-waarde (hoe donkerder, hoe meer significant). Op de X-as staat percentage genen die een hit zijn op de desbetreffende GO-term.*
+
+### Activatie van de chemokine signaling pathway bij RA
+
+Voor deze KEGG-pathway analyse werd de [`chemokine signaling pathway`](./resultaten/hsa04062.pathview.png) geanalyseerd, zie ook figuur 4. Binnen deze pathway is te zien dat er meerdere genen differentieel gereguleerd zijn tussen RA-patiënten en gezonde individuen. Onder andere PI3K, PLC, Rac en PKC betrokken bij processen als leukocytenmigratie, ontsteking en celactivatie. De rode kleur staat voor upregulatie, wat betekent dat het gen meer tot expressie is gekomen in de RA-patiënten dan in gezonde patiënten (Een Log₂FC = +5 betekent ongeveer 32x meer tot expressie). Groen staat juist voor downregulatie, waarbij het gen minder tot expressie is gekomen in RA-patiënten dan in de controles (Een Log₂FC = -5 betekent ongeveer 32x minder tot expressie). De activatie van deze route laat de rol zien van chemokines in het immuunantwoord bij RA. 
+
+<p align="left">
+  <img src="/resultaten/hsa04062.pathview.png" alt="KEGG-pathway" width="600"/>
+</p>
+
+*Figuur 4: KEGG-pathway visualisatie van de chemokine signaling pathway ("hsa04062") bij RA-patiënten. Rood geeft upregulatie (hogere expressie in RA ten opzichte van controles), groen geeft downregulatie aan. Voorbeeld: een Log₂FC van +5 betekent circa 32 keer hogere expressie. De activatie van deze pathway benadrukt de rol van chemokines in de migratie en activatie van leukocyten tijdens het immuunrespons bij RA.*
+
 ___
 ## 🎯 Conclusie
 
