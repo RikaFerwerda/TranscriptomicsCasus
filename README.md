@@ -6,7 +6,7 @@ Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij het afweer
 
 Om daar meer inzicht in te krijgen, wordt er tegenwoordig gebruikgemaakt van RNA-sequencing (RNA-seq). Hiermee kun je precies zien welke genen actief zijn in cellen van RA-patiënten, en hoe dat verschilt van gezonde mensen. Dat zou dus meer informatie geven over welke genen en signaalroutes mogelijk betrokken zijn bij RA (Guo et al., 2023). In dit onderzoek worden daarom RNA-seq-gegevens van synoviumbiopten van RA-patiënten en gezonde mensen vergeleken, om te ontdekken welke biologische processen hierbij mogelijk een rol spelen.
 
-#### Hoofdvraag
+**Hoofdvraag**
 
 In welke biologische processen verschilt de genexpressie van patiënten met RA ten op zichte van de genexpressie van gezonde controles?
 
