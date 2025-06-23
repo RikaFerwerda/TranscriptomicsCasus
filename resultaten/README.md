@@ -1,0 +1,12 @@
+| Nr | Gen   | Verandering | Biologische functie in RA                                                                 | Wetenschappelijke bron                                                                 |
+|----|--------|-------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| 1  | **Vav**   | ↑ (rood)     | Activeert Rho/Rac GTPases, betrokken bij actinecytoskelet-herstructurering en immuuncelactivatie | [García-Bernal et al., 2011](https://doi.org/10.1182/blood-2011-04-345322)             |
+| 2  | **STAT**  | ↑           | Centrale rol in JAK/STAT-signaalroute; reguleert inflammatoire genexpressie            | [Ivashkiv & Hu, 2004](https://doi.org/10.1016/j.it.2004.06.004)                        |
+| 3  | **PI3K**  | ↑           | Activeert AKT-signaling; bevordert celoverleving en synoviale hyperplasie             | [Bartok & Firestein, 2010](https://doi.org/10.1016/j.coi.2010.03.006)                 |
+| 4  | **PKC**   | ↑           | Speelt rol bij T-cel activatie en cytokineproductie; versterkt ontsteking              | [Sawai et al., 2010](https://doi.org/10.3892/ijmm_00000476)                           |
+| 5  | **ERK1/2**| ↑           | MAPK-route: activeert genexpressie voor celgroei en inflammatie                        | [Schett et al., 2008](https://doi.org/10.1038/nrrheum.2008.172)                       |
+| 6  | **Rac**   | ↓ (groen)   | Reguleert cytoskelet en migratie van immuuncellen; downregulatie kan migratie belemmeren | [Tsubaki et al., 2006](https://doi.org/10.3892/ijmm.17.4.703)                          |
+| 7  | **BAD**   | ↓           | Pro-apoptotisch; verminderde expressie leidt tot overleving van ontstekingscellen     | [Firestein, 2003](https://doi.org/10.1038/nri1043)                                    |
+| 8  | **Shc**   | ↓           | Adaptereiwit in Ras/ERK-signaalroute; beïnvloedt celdeling en signaaltransductie       | [Page et al., 2002](https://doi.org/10.1016/S0167-4889(01)00201-6)                     |
+| 9  | **WASP**  | ↓           | Essentieel voor actineherstructurering en immuuncelmigratie                            | [Orange et al., 2002](https://doi.org/10.1038/ni0313-179)                              |
+| 10 | **PLC**   | ↓           | Splitst PIP2 in IP3 en DAG; activeert calcium-signalen en PKC, relevant voor immuunrespons | [Bae et al., 2003](https://doi.org/10.1038/nri1106)                                    |
