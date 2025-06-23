@@ -2,10 +2,18 @@
 ____
 ## 🧾 Inleiding 
 
-Reumatoïde artritis (RA) is een langdurige auto-immuunziekte waarbij het afweersysteem het eigen lichaam aanvalt. Dit zorgt voor ontstekingen in het gewrichtsslijmvlies (synovium), wat uiteindelijk leidt tot schade aan de gewrichten (Smolen et al., 2016). Hoe RA precies ontstaat is nog niet helemaal duidelijk. Waarschijnlijk spelen erfelijke aanleg, omgevingsfactoren (zoals roken) en een verstoord immuunsysteem een rol (Firestein & McInnes, 2017). In het bloed van mensen met RA zijn vaak auto-antistoffen aanwezig, zoals anti-CCP (anti-cyclisch gecitrullineerd peptide). 
-Deze helpen bij het stellen van een vroege diagnose (van der Helm-van Mil et al., 2025).
+Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij het afweersysteem het eigen lichaam aanvalt, vooral het slijmvlies van gewrichten. Dit zorgt voor ontstekingen die uiteindelijk schade aan de gewrichten kunnen veroorzaken (Smolen et al., 2016). Er is bekend dat factoren zoals erfelijkheid en roken een rol zouden kunnen spelen bij het ontstaan van RA (Firestein & McInnes, 2017). Ook zijn er antistoffen in het bloed, zoals anti-CCP, die helpen bij het stellen van een diagnose (van der Helm-van Mil et al., 2025). Maar ondanks al die kennis blijft het onduidelijk wat er precies op moleculair niveau gebeurt in het synoviale weefsel bij RA.
 
-Het is belangrijk om RA vroeg te herkennen en te behandelen met medicijnen (DMARDs), zodat verdere gewrichtsschade wordt beperkt (Smolen et al., 2018). Tegenwoordig wordt met RNA-sequencing gekeken naar genexpressie in RA-weefsel. Dit geeft inzicht in welke genen en biologische processen bij RA betrokken zijn (Guo et al., 2023). In dit onderzoek worden RNA-gegevens geanalyseerd van synoviumbiopten van RA-patiënten en gezonde mensen. Het doel is om verschillen in genexpressie te vinden en te onderzoeken welke pathways mogelijk betrokken zijn bij het ontstaan van RA.
+Om daar meer inzicht in te krijgen, wordt er tegenwoordig gebruikgemaakt van RNA-sequencing (RNA-seq). Hiermee kun je precies zien welke genen actief zijn in cellen van RA-patiënten, en hoe dat verschilt van gezonde mensen. Dat zou dus meer informatie geven over welke genen en signaalroutes mogelijk betrokken zijn bij RA (Guo et al., 2023). In dit onderzoek worden daarom RNA-seq-gegevens van synoviumbiopten van RA-patiënten en gezonde mensen vergeleken, om te ontdekken welke biologische processen hierbij mogelijk een rol spelen.
+
+#### Hoofdvraag
+
+In welke biologische processen verschilt de genexpressie van patiënten met RA ten op zichte van de genexpressie van gezonde controles?
+
+**Deelvragen**
+- Welke genen komen significant verschillend tot expressie bij RA-patiënten vergeleken met gezonde controles?
+- Welke biologische processen zijn verrijkt bij de genen die differentieel tot expressie zijn gebracht?
+- Welke genen binnen de chemokine signaling pathway zijn veranderd bij RA, en wat is de rol van deze signaalroute in leukocytenactivatie?
 
 ___
 ## 🧪 Methode
