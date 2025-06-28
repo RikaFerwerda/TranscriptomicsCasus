@@ -18,7 +18,9 @@ terug te vinden is en dat het onderzoek reproduceerbaar is.
 Mijn GitHub-repository is logisch ingericht met een duidelijke mappenstructuur (data/, resultaten/, scripts/) en scripts met commentaarregels. Ik zet in de "commit" welke map het betreft.
 
 #### Bewijsstukken
+- ![image](https://github.com/user-attachments/assets/a8f9739b-68b7-4f9d-937c-b45a9d43c300)
 - 
+
 
 
 C | Communicatie en rapportage	Te communiceren over (de naleving van) de richtlijnen van de relevante beheersystemen bij uitvoering van zijn werkzaamheden.		
