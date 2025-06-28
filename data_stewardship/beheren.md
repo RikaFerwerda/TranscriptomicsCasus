@@ -10,7 +10,8 @@ Het gebruiken van GitHub draagt bij aan dit leerdoel. GitHub heb ik gebruikt als
 terug te vinden is en dat het onderzoek reproduceerbaar is. 
 
 #### Bewijsstukken
-
+- https://github.com/RikaFerwerda/TranscriptomicsCasus.git
+- 
 
 
 B | Inrichting en inhoud van het systeem	De richtlijnen van relevante beheersystemen na te leven door passend te handelen bij de uitvoering van de eigen werkzaamheden.		
