@@ -82,7 +82,7 @@ Naast de chemokine signaling pathway zouden ook andere immuunroutes, zoals T-cel
 ___
 ## 🗂️ Data Stewardship
 
-- Zie [`data_stewardship`](./data_stewardship) voor uitleg over het beheren van data volgens de FAIR-principes.
+- Zie [`data_stewardship`](./data_stewardship) voor uitleg over het beheren van data
 
 ___
 
