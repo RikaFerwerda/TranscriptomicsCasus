@@ -19,9 +19,11 @@ Mijn GitHub-repository is logisch ingericht met een duidelijke mappenstructuur (
 
 #### Bewijsstukken
 - ![image](https://github.com/user-attachments/assets/a8f9739b-68b7-4f9d-937c-b45a9d43c300)
-- 
+- [`Scripts`](./scripts/)
 
 
+### C | Communicatie en rapportage:	Te communiceren over (de naleving van) de richtlijnen van de relevante beheersystemen bij uitvoering van zijn werkzaamheden.	
+In data_stewardship beschrijf ik hoe ik GitHub heb gebruikt om mijn scripts en data te beheren en overzichtelijk te houden.
 
-C | Communicatie en rapportage	Te communiceren over (de naleving van) de richtlijnen van de relevante beheersystemen bij uitvoering van zijn werkzaamheden.		
-![image](https://github.com/user-attachments/assets/a9786637-d648-494c-a18f-59d303a84f37)
+#### Bewijsstukken
+- [`data_stewardship`](./data_stewardship/)
