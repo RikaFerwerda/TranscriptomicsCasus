@@ -1,4 +1,4 @@
-**Gebruik van GitHub**
+## **Gebruik van GitHub**
 
 Voor deze casus heb ik gebruikgemaakt van GitHub als beheersysteem voor mijn data-analyse en scripts. GitHub ondersteunt versiebeheer, waardoor wijzigingen in scripts worden bijgehouden. Voor biologisch onderzoek is dit handig, zodat de analyse reproduceerbaar is.
 
