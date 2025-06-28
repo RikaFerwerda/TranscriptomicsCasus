@@ -11,9 +11,15 @@ terug te vinden is en dat het onderzoek reproduceerbaar is.
 
 #### Bewijsstukken
 - https://github.com/RikaFerwerda/TranscriptomicsCasus.git
+- README.md
+
+
+### B | Inrichting en inhoud van het systeem: De richtlijnen van relevante beheersystemen na te leven door passend te handelen bij de uitvoering van de eigen werkzaamheden.
+Mijn GitHub-repository is logisch ingericht met een duidelijke mappenstructuur (data/, resultaten/, scripts/) en scripts met commentaarregels. Ik zet in de "commit" welke map het betreft.
+
+#### Bewijsstukken
 - 
 
 
-B | Inrichting en inhoud van het systeem	De richtlijnen van relevante beheersystemen na te leven door passend te handelen bij de uitvoering van de eigen werkzaamheden.		
 C | Communicatie en rapportage	Te communiceren over (de naleving van) de richtlijnen van de relevante beheersystemen bij uitvoering van zijn werkzaamheden.		
 ![image](https://github.com/user-attachments/assets/a9786637-d648-494c-a18f-59d303a84f37)
