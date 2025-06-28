@@ -66,7 +66,7 @@ Voor deze KEGG-pathway analyse werd de [`chemokine signaling pathway`](./resulta
   <img src="/resultaten/hsa04062.pathview.png" alt="KEGG-pathway" width="600"/>
 </p>
 
-*Figuur 4: KEGG-pathway visualisatie van de chemokine signaling pathway ("hsa04062") bij RA-patiënten. Rood geeft upregulatie (hogere expressie in RA ten opzichte van controles), groen geeft downregulatie aan. Voorbeeld: een Log₂FC van +5 betekent circa 32 keer hogere expressie. De activatie van deze pathway benadrukt de rol van chemokines in de migratie en activatie van leukocyten tijdens het immuunrespons bij RA.*
+*Figuur 4: KEGG-pathway visualisatie van de chemokine signaling pathway ("hsa04062") bij RA-patiënten. Rood geeft upregulatie (hogere expressie in RA ten opzichte van controles), groen geeft downregulatie aan. Voorbeeld: een Log₂FC van +5 betekent circa 32 keer hogere expressie.*
 
 ___
 ## 🎯 Conclusie
