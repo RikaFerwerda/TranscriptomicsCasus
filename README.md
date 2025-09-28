@@ -1,4 +1,4 @@
-# Transcriptomics Casus
+# De rol van chemokine signaling en immuunactivatie in reumatoïde artritis
 ____
 ## 🧾 Inleiding 
 
